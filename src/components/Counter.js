@@ -2,11 +2,11 @@ import React from "react";
 
 const Counter = ({ number, onIncrement, onDecrement }) => {
   return (
-    <>
-      <p>{number}</p>
-      <button onClick={onIncrement}>+1</button>
-      <button onClick={onDecrement}>-1</button>
-    </>
+    <div className="Counter">
+      <h1>{number}</h1>
+      <button onClick={onIncrement}>+</button>
+      <button onClick={onDecrement}>-</button>
+    </div>
   );
 };
 
